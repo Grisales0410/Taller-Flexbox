@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; 
+    flex-direction: column;
+    
+    
+    
+}

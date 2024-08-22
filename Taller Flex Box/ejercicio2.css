@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+nav{
+    display: flex;
+    margin: auto;
+}
+.menu {
+    width: 200px;
+    background-color: #f1afda;
+    padding: 10px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.menu ul li {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu ul li .link {
+    color: rgb(15, 15, 15);
+    font-size: 18px;
+    flex-direction: column-reverse;
+}
+.menu ul li .button {
+    background-color: #edebe9;
+    border: none;
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu ul li .button:hover {
+    background-color: #e68a00;
+}
